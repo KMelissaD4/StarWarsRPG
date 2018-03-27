@@ -16,7 +16,7 @@ theme.play();
 //Object declarations for characters.
 var characters = [
 	leia = {
-		name: "Princess Leia",
+		name: "Princess Liar",
 		image: "<img src = 'assets/images/leia.png' id = 'leia'>",
 		defendImage: "<img src = 'assets/images/leia.png'>",
 		baseAttack: 5,
@@ -26,7 +26,7 @@ var characters = [
 	},
 
 	chewie = {
-		name: "Chewbacca",
+		name: "Chewbackhair",
 		image: "<img src = 'assets/images/chewie.png' id = 'chewie'>",
 		defendImage: "<img src = 'assets/images/chewie.png'>",
 		baseAttack: 6,
@@ -276,7 +276,7 @@ console.log(enemyCount);
 		enemyCount = (characters.length - 1); 
 	characters = [
 	leia = {
-		name: "Princess Leia",
+		name: "Princess Liar",
 		image: "<img src = 'assets/images/leia.png' id = 'leia'>",
 		defendImage: "<img src = 'assets/images/leia.png'>",
 		baseAttack: 5,
@@ -286,7 +286,7 @@ console.log(enemyCount);
 	},
 
 	chewie = {
-		name: "Chewbacca",
+		name: "Chewbackhair",
 		image: "<img src = 'assets/images/chewie.png' id = 'chewie'>",
 		defendImage: "<img src = 'assets/images/chewie.png'>",
 		baseAttack: 6,
