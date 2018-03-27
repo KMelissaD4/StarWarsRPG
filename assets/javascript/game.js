@@ -182,7 +182,7 @@ console.log(enemyCount);
 	function battle(char){
 		$('#top').append("<div id = 'enemies'></div>");
 		$('#middle').append("<div class = 'feedcontainer'><div id = 'feed'><h2>Welcome to the battle, Klingons. Choose an enemy above to begin attacking. May the magic be with you, always.</h2></div></div>");
-		$("#attackerZone").append("<div id = 'player'>"+char.image+"<br><h3>"+char.name+"<br>Attack Power: "+char.attack+"<br>Health: "+char.health+"</h3></div>");
+		$("#attackerZone").append("<div id = 'player'>"+char.image+"<br><h4>"+char.name+"<br>Attack Power: "+char.attack+"<br>Health: "+char.health+"</h4></div>");
 		//for loop makes sure that each character is added. 
 		for(var i = 0; i < characters.length; i++){
 			var enemy = "enemy"+i;  
