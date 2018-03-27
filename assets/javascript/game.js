@@ -6,7 +6,7 @@ var characterChosen;
 var enemyChosen = false;
 var opponent;
 var defeated = false; 
-var backgrounds = ["assets/images/tatooine.jpg", "assets/images/endorbg.jpg", "assets/images/hothbg.jpg"];
+var backgrounds = ["assets/images/firefly.jpg"];
 theme.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
@@ -67,7 +67,7 @@ console.log(enemyCount);
 	console.log(character);
 //Start Game on clicking the #start button.
 	$('#start').on("click", function(){
-		$(document.body).css('background-image', 'url(assets/images/endorbg.jpg)')
+		$(document.body).css('background-image', 'url(assets/images/firefly.jpg)')
 			playGame();
 			var saber = new Audio("assets/sounds/saber.mp3");
 			saber.play();
